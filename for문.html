@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        for (i = 1; i <= 10; i++) {
+            console.log("i= ", i);
+        }
+
+        let flowers = ["작약", "목련", "백일홍", "국화", "장미"];
+        for (i = 0; i < flowers.length; i++) {
+            console.log(flowers[i]);
+        }
+        for (index in flowers) {
+            console.log(index, flowers[index]);
+        }
+
+        for (item of flowers) {
+            console.log(item);
+        }
+    </script>
+
+</body>
+
+</html>
